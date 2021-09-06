@@ -4,5 +4,5 @@ controlSize.value = 16;
 // console.log(controlSize.value);
 controlSize.addEventListener('input', onInput);
 function onInput() {
-    textSize.style.fontSize = controlSize.value + 'px';
+    textSize.style.fontSize = `${controlSize.value}px`;
 }
